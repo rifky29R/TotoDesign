@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>Toto Design | SMKN1 Purwakarta</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo">TotoDesign</h2>
+        <nav class="navigation">
+            <a href="home.html">Home</a>
+            <a href="aboutp.html">About</a>
+            <a href="html.html">Login Service</a>
+            <a href="contact.html">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="PPt.jpg" alt="Jasa PPT" class="menu-icon">
+            <h3>Jasa PPT</h3>
+           
+        </div>
+        <div class="menu-item">
+            <img src="The Union Club and Bar.jpg" alt="Desain Poster" class="menu-icon">
+            <h3>Desain Poster</h3>
+            
+        </div>
+        <div class="menu-item">
+            <img src="Logo.jpg" alt="Logo" class="menu-icon">
+            <h3>Logo</h3>
+           
+        </div>
+    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Redirect ke WhatsApp</title>
+        <style>
+            .box {
+                width: 200px;
+                height: 100px;
+                background-color: #553C8F;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 10px;
+                transition: background-color 0.3s ease;
+            }
+            .box:hover {
+                background-color: #FA0992;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box" onclick="redirectToWhatsApp()">
+            Order Now
+        </div>
+    
+        <script>
+            function redirectToWhatsApp() {
+                const phoneNumber = "6281389298238"; // Ganti dengan nomor tujuan
+                const message = "Saya ingin order.";
+                const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                window.open(url, "_blank");
+            }
+        </script>
+    </body>
+    </html>
+    
+
+</body>
+</html>
+    
+    
+    
+       
